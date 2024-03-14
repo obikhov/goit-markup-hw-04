@@ -561,23 +561,29 @@ max-width: 264px;
 }
 
 
-/* iconci */
-/* section tu */
+
 
 .icon-section{
- width: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ /* width: 40px;
  height: 40px;
  background-color: #4d5ae5;
  border-radius: 50%;
  display: flex;
  align-items: center;
- justify-content: center;
+ justify-content: center; */
 }
 .icon-section:hover{
-  background-color: #404bbf;
+  background-color:#31d0aa;
 }
 .icon-section:focus{
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .icon{
   fill: transparent;
@@ -601,18 +607,37 @@ margin-top: 8px;
 /* hover-container */
 .icon-hover{
   display: flex;
+  align-items: baseline;
+}
+.footer-content{
+  margin-right: 120px;
+}
+.hover-list-icon{
+  display: flex;
+  gap: 16px;
+
+
+
 }
 .hover-list-icon{
   width: 206px;
   margin-left: 134px;
 }
 .hover-icon{
-  display: flex;
-  gap: 16px;
-  margin-top: 6px;
+  width: 40px;
+  height: 40px;
+
 }
+ 
+
+
 .logo-hover-media{
   color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 /* section 1 */
 .fon{
