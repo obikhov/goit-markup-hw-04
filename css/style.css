@@ -409,6 +409,12 @@ background-size: cover;
 
 
 }
+.icon-section:hover{
+  background-color: #404bbf;
+}
+.icon-section:focus{
+  background-color: #404bbf;
+}
 .flex-section-logo{
   max-width: 527px;
 margin: auto;
@@ -588,7 +594,7 @@ max-width: 264px;
 
 
 
-.icon-section{
+.futer-icon-section{
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -605,11 +611,12 @@ max-width: 264px;
  align-items: center;
  justify-content: center; */
 }
-.icon-section:hover{
-  background-color: #404bbf;
+
+.futer-icon-section:hover{
+  background-color: #31d0aa;
 }
-.icon-section:focus{
-  background-color: #404bbf;
+.futer-icon-section:focus{
+  background-color: #31d0aa; 
 }
 .icon{
   fill: transparent;
