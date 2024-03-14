@@ -136,10 +136,13 @@ text-align: left;
 
 }
 .menu{
-  position: relative;
   color: #404bbf;
+  position: relative;
   transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+.color-menu{
+  color: #404bbf;
 }
 .menu::after{
   width: 100%;
@@ -170,9 +173,9 @@ address{
   color: #404BBF;
  }
 .section-title{
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
 background: #2E2F42;
-width: 1440px;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+max-width: 1440px;
 height: 660px;
 top: 72px;
 }
@@ -603,10 +606,10 @@ max-width: 264px;
  justify-content: center; */
 }
 .icon-section:hover{
-  background-color:#31d0aa;
+  background-color: #404bbf;
 }
 .icon-section:focus{
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 .icon{
   fill: transparent;
