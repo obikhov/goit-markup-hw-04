@@ -675,3 +675,81 @@ justify-content: center;
 .cvg-footer{
   fill: #f4f4fd;
 }
+
+
+
+.icon-list{
+  display: flex;
+justify-content: center;
+gap: 24px;
+margin-top: 8px;
+ 
+
+}
+.list-icon{
+  width: 40px;
+  height: 40px;
+ 
+}
+/* hover-container */
+.icon-hover{
+  display: flex;
+  align-items: baseline;
+}
+.footer-content{
+  margin-right: 120px;
+}
+.hover-list-icon{
+  display: flex;
+  gap: 16px;
+ 
+
+  
+
+
+
+}
+.hover-list-icon{
+  width: 206px;
+  margin-left: 134px;
+}
+.hover-icon{
+  width: 40px;
+  height: 40px;
+
+}
+ 
+
+
+.logo-hover-media{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+/* section 1 */
+.fon{
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) ,url(../images/people-office\ 1.png);
+  
+}
+/* section 2 */
+.icon-section-tu{
+  display: flex;
+  background-color:#F4F4FD;
+  width: 264px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+ 
+}
+.icon-center{
+margin-left: 100px;
+margin-right: 104px;
+margin-top: 24px;
+margin-bottom: 24px;
+}
