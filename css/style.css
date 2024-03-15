@@ -183,9 +183,6 @@ address{
 .section-title{
 background: #2E2F42;
 margin: 1440,600,72;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
 }
 .section-logo{
 font-size: 56px;
@@ -419,10 +416,14 @@ letter-spacing: 0.02em;
 }
 /* section 1 */
 .flex-title{
-padding-top: 188px;
-padding-bottom: 188px;
-margin: 0;
-background-image: inear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),  url(../images/people-office\ 1.png);
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin: 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
+
 max-width: 1440px;
 }
 .flex-section-logo{
