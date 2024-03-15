@@ -521,7 +521,7 @@ padding-bottom: 32px;
 .section-fri-icon-list{
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 
@@ -533,6 +533,7 @@ padding-bottom: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-fri-list-a:hover{
   background-color: #404bbf;
@@ -585,6 +586,7 @@ text-align: center;
 .images-section-fo{
   width: calc((100% - 48px) / 3);
   border-top-left-radius: 0px;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
   
   }
@@ -665,7 +667,7 @@ margin-bottom: 16px;
 .footer-li-icon{
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .footer-icon-a{
@@ -676,6 +678,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-a:hover{
   background-color: #31d0aa;;
