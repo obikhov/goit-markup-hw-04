@@ -92,11 +92,11 @@ li{
 }
 p{
 margin:0;
-  pading:0;
+
 }
 h1,h2,h3,h4,h5,h6{
   margin:0;
-  pading:0;
+
 }
 
 .body{
@@ -182,11 +182,17 @@ address{
   /* Секция первая */
 .section-title{
   background: #2E2F42;
+  max-width: 1440px ;
+  margin: 1440,600,72;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px ;
+  margin: auto;
+padding-left: 156px;
+padding-right: 156px;
   background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)
+ 
+ 
   
   }
 
@@ -424,12 +430,8 @@ letter-spacing: 0.02em;
 .flex-title{
   padding-top: 188px;
   padding-bottom: 188px;
-  margin: 0;
+ }
 
-  
-
-
-}
 .flex-section-logo{
   max-width: 527px;
 margin: auto;
@@ -500,8 +502,7 @@ flex-basis: calc((100% - 72px) / 4)
 .flex-list-section-fri{
 display: flex;
 gap: 24px;
-box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius:0px 0px 4px 4px;
+
 
 }
 .flex-list-logo-section-fri{
@@ -520,6 +521,7 @@ padding-bottom: 32px;
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
   
 }
 
@@ -598,7 +600,9 @@ text-align: center;
   }
   .images-section-fo:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
   }
+
 
   .images-section-fo:hover .paragraf-icon-section-fo{
     transform: translateY(0%);
@@ -611,6 +615,7 @@ text-align: center;
   }
 
 .paragraf-icon-section-fo{
+
 position: absolute;
 font-size: 16px;
 font-weight: 400;
@@ -622,14 +627,17 @@ background-color: #404BBF;
 height: 100%;
 display: flex;
 align-items: center;
+text-align: center;
 transform: translateY(100%);
 font-family:"Roboto", sans-serif;
 color: #f4f4fd;
 padding: 40px 32px;
+padding-bottom: 164px;
 background-color: #4d5ae5;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+padding-left: 32px;
+padding-right: 32px;
 }
-
 
 /* footer */
 .flex-footer{
@@ -657,7 +665,7 @@ max-width: 264px;
 .footer-poragraf-social{
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.2px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #FFFFFF;
