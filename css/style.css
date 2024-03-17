@@ -183,13 +183,10 @@ address{
 .section-title{
   background: #2E2F42;
   max-width: 1440px ;
-  margin: 1440,600,72;
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: auto;
-padding-left: 156px;
-padding-right: 156px;
   background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)
  
  
@@ -657,7 +654,7 @@ display: inline-block;
 margin-bottom: 16px;
 }
 .flex-footer-poragraf{
-max-width: 264px;
+max-width: 275px;
 }
 
 .footer-poragraf-social{
